@@ -18,8 +18,7 @@
     },
     "extra": {
         "laminas": {
-            "component": "Contenir\\Mvc\\Workflow",
-            "config-provider": "Contenir\\Mvc\\Workflow\\ConfigProvider"
+            "component": "Contenir\\Metadata"
         }
     },
     "require": {
