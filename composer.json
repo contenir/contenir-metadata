@@ -16,11 +16,6 @@
     "config": {
         "sort-packages": true
     },
-    "extra": {
-        "laminas": {
-            "component": "Contenir\\Metadata"
-        }
-    },
     "require": {
         "php": "^8.0.0",
         "laminas/laminas-mvc": "^3.0"
