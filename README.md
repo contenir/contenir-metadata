@@ -102,6 +102,7 @@ composer static-analysis   # mago analyze
 composer test              # unit suite: the interface contract, via tests/TestAsset/PageMetadata
 composer test-integration  # integration suite: empty, the package performs no I/O
 composer test-coverage     # both suites, clover.xml for Codecov
+composer mutation-test     # Infection over both suites (no mutants yet: src/ has no executable code)
 ```
 
 ## License
