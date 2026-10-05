@@ -4,6 +4,14 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project
 adheres to [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- Infection mutation testing setup (`composer mutation-test`). Not enabled in
+  CI yet: the package is a single interface with no executable code, so no
+  mutants are generated.
+
 ## [2.0.0] - Unreleased
 
 `MetadataInterface` now declares native return types, which is a breaking
