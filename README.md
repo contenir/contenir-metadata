@@ -1,7 +1,6 @@
 # contenir/contenir-metadata
 
 [![Continuous Integration](https://github.com/contenir/contenir-metadata/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/contenir/contenir-metadata/actions/workflows/continuous-integration.yml)
-[![codecov](https://codecov.io/gh/contenir/contenir-metadata/graph/badge.svg)](https://codecov.io/gh/contenir/contenir-metadata)
 
 The page metadata contract for [Contenir CMS](https://github.com/contenir).
 
@@ -101,7 +100,7 @@ composer cs-check          # mago format --check && mago lint
 composer static-analysis   # mago analyze
 composer test              # unit suite: the interface contract, via tests/TestAsset/PageMetadata
 composer test-integration  # integration suite: empty, the package performs no I/O
-composer test-coverage     # both suites, clover.xml for Codecov
+composer test-coverage     # both suites, clover.xml
 composer mutation-test     # Infection over both suites (no mutants yet: src/ has no executable code)
 ```
 

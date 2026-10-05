@@ -12,6 +12,11 @@ adheres to [Semantic Versioning](https://semver.org/).
   CI yet: the package is a single interface with no executable code, so no
   mutants are generated.
 
+### Removed
+
+- Codecov reporting and the README badge: with no executable code there is
+  nothing to cover, so the badge only ever showed 0%.
+
 ## [2.0.0] - Unreleased
 
 `MetadataInterface` now declares native return types, which is a breaking
