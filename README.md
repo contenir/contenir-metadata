@@ -10,7 +10,7 @@ the packages that render a page's head and sitemap:
 
 - `contenir/contenir-resource`'s `ResourceMeta` view helper builds `<title>`,
   the description meta tag, Open Graph and Twitter tags from it.
-- `contenir/contenir-mvc-workflow`'s `ResourceStrategy` uses the modified date
+- `contenir/contenir-workflow-laminas-mvc`'s `ResourceStrategy` uses the modified date
   as the navigation page's sitemap `lastmod`.
 
 The package contains only the interface and has no runtime dependencies.

@@ -17,7 +17,7 @@ adheres to [Semantic Versioning](https://semver.org/).
 - Codecov reporting and the README badge: with no executable code there is
   nothing to cover, so the badge only ever showed 0%.
 
-## [2.0.0] - Unreleased
+## [2.0.0] - 2026-10-05
 
 `MetadataInterface` now declares native return types, which is a breaking
 change for every implementer. See [UPGRADE-2.0.md](UPGRADE-2.0.md).
